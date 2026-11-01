@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports
+reports/
+
+# Backup and temporary files
+*.bak
+lines.extend*
+
+# Secrets
+.env
+.env.*
+!.env.example
